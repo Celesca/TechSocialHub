@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Message.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDotCircle, faHome, faMessage, faPaperclip, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faDotCircle, faHome, faList, faMessage, faPaperclip, faUser } from '@fortawesome/free-solid-svg-icons'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,9 +27,24 @@ export default function Profile() {
                         style={{fontSize: 18, color:"#3BBA9C", width: 40}}></FontAwesomeIcon>
             </div>
             <FontAwesomeIcon
-                        icon={faDotCircle}
-                        style={{fontSize: 18, color:"#3BBA9C", width: 40}}></FontAwesomeIcon>
+                        icon={faList}
+                        style={{fontSize: 18, color:"white", width: 60 , height: 30}}></FontAwesomeIcon>
+        
+        
+        </div>
+
+        <div className={styles.chat_container}>
+            <div className={styles.chatyou}>Hey! What's up How are you today?</div>
+            <div className={styles.chatyou}>Today, I will go to your place. Are you free?</div>
             
+        </div>
+
+        <div className={styles.chat_container_2}>
+            <div className={styles.chatme}>Sure! Why not?</div>
+        </div>
+
+        <div className={styles.text_input}>
+            <input placeholder></input>
         </div>
 
         <div className={styles.footer}>Copyright &copy; Celesca 2023</div>
