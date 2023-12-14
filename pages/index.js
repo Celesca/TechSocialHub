@@ -54,6 +54,8 @@ export default function Home() {
         {CustomerData.map((data,index)=> {
           return <PostBlock key={index} {...data}></PostBlock>
         })}
+
+        <div className={styles.footer}>Copyright &copy; Celesca 2023</div>
         
       </main>
     </>

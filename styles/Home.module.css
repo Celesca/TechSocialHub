@@ -71,3 +71,10 @@
   cursor: pointer;
   background-color: #a0aad1;
 }
+
+.footer {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 15px;
+}

@@ -12,6 +12,7 @@
 .profile {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .profile img {
@@ -24,8 +25,12 @@
 }
 
 .content img {
+    position: 'relative';
     width: 100%;
     height: 300px;
+    object-fit: fill;
+    margin-top: 20px;
+    cursor: pointer;
 }
 
 .comment {

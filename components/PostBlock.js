@@ -2,6 +2,7 @@ import styles from '@/styles/PostBlock.module.css'
 import { faComment, faShare, faThumbsUp } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function PostBlock(props) {
     
@@ -13,6 +14,7 @@ export default function PostBlock(props) {
     return (
         <>
             <div className={styles.post_block}>
+                <Link href="/profile">
                 <div className={styles.profile}>
                     <Image src={picture} width={100} height={100}></Image>
                     <div>
@@ -21,11 +23,13 @@ export default function PostBlock(props) {
                     </div>
                     
                 </div>
+                </Link>
                 <div className={styles.content}>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
-                    <Image src={blog_picture} width={100} height={100}></Image>
-
+                    <Link href="/post">
+                    <Image src={blog_picture} width={500} height={300} layout="responsive"></Image>
+                    </Link>
                 </div>
 
                 <div className={styles.comment}>
