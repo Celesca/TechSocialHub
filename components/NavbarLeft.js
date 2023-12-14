@@ -1,7 +1,7 @@
 import styles from '@/styles/NavbarLeft.module.css'
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faF, faHome, faPaperclip, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faMessage, faPaperclip, faUser } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
 
 export default function NavbarLeft() {
@@ -35,13 +35,13 @@ export default function NavbarLeft() {
                 <Link href="/message">
                 <li>
                     <FontAwesomeIcon
-                        icon={faF}
+                        icon={faMessage}
                         style={{fontSize: 18, color:"white", width: 40}}></FontAwesomeIcon>
                     <span style={{marginLeft:10}}>Message</span>
                 </li>
                 </Link>
 
-                <Link href="/post">
+
                 <li>
                     
                     <FontAwesomeIcon
@@ -49,12 +49,14 @@ export default function NavbarLeft() {
                         style={{fontSize: 18, color:"white", width: 40}}></FontAwesomeIcon>
                     <span style={{marginLeft:10}}>Posts</span>
                 </li>
-                </Link>
+
             </ul>
+            <Link href="/profile">
             <div class={styles.user_container}>
-                <Image style={{borderRadius:100}} src="https://randomuser.me/api/portraits/men/84.jpg" alt="userpic" width={50} height={50}></Image>
+                <Image style={{borderRadius:100}} src="https://randomuser.me/api/portraits/women/24.jpg" alt="userpic" width={50} height={50}></Image>
                 <p>Apollo Celesca</p>
             </div>
+            </Link>
             </div>
             
 

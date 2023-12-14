@@ -17,7 +17,7 @@ const CustomerData = [
     {name: "Nigel Avarez" , 
     date : "11/09/66" , 
     pic: "men/25.jpg",
-    blog_picture: "https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg"}
+    blog_picture: "https://cdn.pixabay.com/photo/2015/06/24/15/45/hands-820272_640.jpg"}
 ]
 
 export default CustomerData

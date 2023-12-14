@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faImage, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faFile, faImage, faPlus, faUser } from '@fortawesome/free-solid-svg-icons'
 import PostBlock from '@/components/PostBlock'
 import CustomerData from '@/components/CustomerData'
 
@@ -27,14 +27,14 @@ export default function Home() {
             <div className={styles.tools}>
               <FontAwesomeIcon
                 icon={faImage}
-                style={{fontSize: 18, color:"white", width: 20 , height:30, marginRight: '10px'}}>
+                style={{fontSize: 18, color:"white", width: 20 , height:30, marginRight: '15px'}}>
               </FontAwesomeIcon>
               <FontAwesomeIcon
-                icon={faImage}
-                style={{fontSize: 18, color:"white", width: 20 , height:30, marginRight: '10px'}}>
+                icon={faFile}
+                style={{fontSize: 18, color:"white", width: 20 , height:20, marginRight: '15px'}}>
               </FontAwesomeIcon>
               <FontAwesomeIcon
-                icon={faImage}
+                icon={faPlus}
                 style={{fontSize: 18, color:"white", width: 20 , height:30}}>
               </FontAwesomeIcon>
             </div>
@@ -42,9 +42,9 @@ export default function Home() {
               <div style={{display: 'flex' , alignItems: 'center'}}>
               <FontAwesomeIcon
                   icon={faUser}
-                  style={{fontSize: 18, color:"white", width: 20 , height:30}}>
+                  style={{fontSize: 18, color:"white", width: 20 , height:30, color: "aqua"}}>
               </FontAwesomeIcon>
-              <span style={{marginLeft: "10px"}}>Friends Only View</span>
+              <span style={{marginLeft: "10px" , color:"aqua"}}>Friends Only View</span>
               </div>
               <button className={styles.post_button}>Post</button>
             </div>

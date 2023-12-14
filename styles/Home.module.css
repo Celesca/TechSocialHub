@@ -17,7 +17,6 @@
   margin-right: 50px;
   background-color: #3BBA9C;
   border-radius: 10px;
-  height: 25vh;
   box-shadow: 10px 8px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -40,13 +39,16 @@
 }
 
 .posts input::placeholder {
-  color: black;
+  color: #ffffff;
   font-size: 16px;
   font-weight: bold;
 }
 
 .tools {
-  margin-top: 5%;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  flex: 1;
 }
 
 .post_button_container {
@@ -55,6 +57,7 @@
   display:flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .post_button {

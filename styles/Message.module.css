@@ -1,0 +1,40 @@
+/* 
+    --primary-background-color: #2E3047
+    --secondary-background-color: #43455C
+    --light-background-color: #707793
+    --bright-color: #3BBA9C
+} */
+
+.main {
+    width: 50vw;
+    background-color: #43455C;
+}
+  
+.chat_header {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chat_header img {
+    border-radius: 50%;
+}
+
+.chat_profile {
+    display: flex;
+    align-items: center;
+}
+
+.chat_profile h2 {
+    margin-left: 10px;
+}
+
+
+
+.footer {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 15px;
+  }

@@ -1,0 +1,49 @@
+/* 
+    --primary-background-color: #2E3047
+    --secondary-background-color: #43455C
+    --light-background-color: #707793
+    --bright-color: #3BBA9C
+} */
+
+.main {
+    width: 50vw;
+    background-color: #43455C;
+  }
+  
+.profile_container {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #3BBA9C;
+    border-radius: 10px;
+    box-shadow: 10px 8px 2px 1px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+}
+
+.profile_container img {
+    border-radius: 50%;
+    margin: 2ch auto;
+}
+
+.profile_container h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+.recent {
+    padding: 30px;
+    text-align: center;
+}
+
+.content_container {
+    padding: 40px;
+    line-height: 200%;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 15px;
+  }
