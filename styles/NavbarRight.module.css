@@ -1,0 +1,37 @@
+/* 
+    --primary-background-color: #2E3047
+    --secondary-background-color: #43455C
+    --light-background-color: #707793
+    --bright-color: #3BBA9C
+} */
+
+.container {
+    width: 25vw;
+    background-color: #2E3047;
+    height: 100vh;
+}
+
+
+.suggest_container {
+    margin-top: 15%;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: white;
+}
+
+.suggest_content {
+    margin-top: 30px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.suggest_content:hover {
+    background-color: #43455C;
+    transition: background-color 0.1s ease-in;
+    cursor: pointer;
+}
+
+.text_content {
+    margin-left: 10px;
+    line-height: 30px;
+}

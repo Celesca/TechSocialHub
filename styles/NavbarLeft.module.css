@@ -1,0 +1,66 @@
+/* 
+    --primary-background-color: #2E3047
+    --secondary-background-color: #43455C
+    --light-background-color: #707793
+    --bright-color: #3BBA9C
+} */
+
+.container {
+    width: 25vw;
+    background-color: #2E3047;
+    height: 100vh;
+}
+
+.logo_container {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_container h1{
+    margin-left: 10px;
+}
+
+.list_container {
+    margin-top: 50px;
+}
+
+.list_container ul {
+    list-style-type: none;
+}
+
+.list_container ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 55px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 16%;
+    margin-bottom: 10px;
+}
+
+.list_container ul li:hover {
+    cursor: pointer;
+    background-color: #3BBA9C;
+}
+
+.user_container {
+    margin-top: 20px;
+    padding-left: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.user_container:hover {
+    cursor: pointer;
+    background-color: #3BBA9C;
+}
+
+.user_container p {
+    margin-left: 10px;
+}
