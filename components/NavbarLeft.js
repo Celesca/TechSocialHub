@@ -32,12 +32,14 @@ export default function NavbarLeft() {
                 </li>
                 </Link>
 
+                <Link href="/message">
                 <li>
                     <FontAwesomeIcon
                         icon={faF}
                         style={{fontSize: 18, color:"white", width: 40}}></FontAwesomeIcon>
-                    <span style={{marginLeft:10}}>Friends</span>
+                    <span style={{marginLeft:10}}>Message</span>
                 </li>
+                </Link>
 
                 <Link href="/post">
                 <li>

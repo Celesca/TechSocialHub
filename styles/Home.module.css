@@ -18,7 +18,7 @@
   background-color: #3BBA9C;
   border-radius: 10px;
   height: 25vh;
-  box-shadow: 10px 12px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 8px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .right_post_bar {
@@ -65,7 +65,6 @@
   border-radius: 5px;
   font-weight: bold;
   color: white;
-  box-shadow: 2px 2px 2px 1px #000;
 }
 
 .post_button:hover {

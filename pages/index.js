@@ -4,10 +4,13 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faImage, faUser } from '@fortawesome/free-solid-svg-icons'
+import PostBlock from '@/components/PostBlock'
+import CustomerData from '@/components/CustomerData'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  
   return (
     <>
       <Head>
@@ -48,7 +51,9 @@ export default function Home() {
           </div>
         </div>
 
-
+        {CustomerData.map((data,index)=> {
+          return <PostBlock key={index} {...data}></PostBlock>
+        })}
         
       </main>
     </>
