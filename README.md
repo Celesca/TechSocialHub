@@ -2,7 +2,7 @@
 
 ![Tech Social Hub](https://github.com/Celesca/Celesca/blob/main/Project%20Picture/techsocialhub.PNG)
 
-## Demo : Coming Soon
+## Demo : [TechSocialHub](https://celesca-tech-social-hub.vercel.app/)
 
 ## Feature
 
