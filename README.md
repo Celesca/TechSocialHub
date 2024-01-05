@@ -2,6 +2,9 @@
 
 ![Tech Social Hub](https://github.com/Celesca/Celesca/blob/main/Project%20Picture/techsocialhub.PNG)
 
+Tech Social Hub is the project for practicing my web application skill by cloning social media platform.
+This is my first time using Next.js and it is great opportunities for improving my skills.
+
 ## Demo : [TechSocialHub](https://celesca-tech-social-hub.vercel.app/)
 
 ## Feature
